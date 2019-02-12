@@ -18,11 +18,13 @@ parameters:
             verbose: true
             level: ~
 
-        phpcsfixer2:
-            allow_risky: ~
-            cache_file: ~
-            config: ~
-            using_cache: ~
-            verbose: true
-            diff: false
-            triggered_by: ['php']
+
+        phplint:
+        octrine_orm:
+            skip_mapping: false
+            skip_sync: false
+            triggered_by: ['php', 'xml', 'yml']
+        yamllint:
+            ignore_patterns: []
+            object_support: false
+            exception_on_invalid_type: false
