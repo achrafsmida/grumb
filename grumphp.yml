@@ -1,5 +1,5 @@
 parameters:
-    git_dir: "./"
+    git_dir: "."
     bin_dir: vendor/bin
     tasks:
 
@@ -8,11 +8,9 @@ parameters:
             tab_width: ~
             sniffs: []
             triggered_by: [php]
-        phpcsfixer2:
-            allow_risky: false
-            cache_file: ~
-            config: ~
-            rules: []
-            using_cache: true
-            verbose: true
-        phpunit: ~
+            ignore_patterns:
+                    - "app"
+                    - "var"
+                    - "web"
+
+        phpcsfixer: ~
