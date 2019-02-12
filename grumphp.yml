@@ -1,17 +1,9 @@
 parameters:
-    git_dir: .
+    git_dir: "./"
     bin_dir: vendor/bin
     tasks:
-        composer: ~
-        gulp: ~
-        jsonlint: ~
-        kahlan: ~
-        phpcs:
-            standard: PSR2
-            show_warnings: false
-            tab_width: ~
-            sniffs: []
-            triggered_by: [php]
+
+
         phpcsfixer2:
             allow_risky: false
             cache_file: ~
@@ -19,5 +11,4 @@ parameters:
             rules: []
             using_cache: true
             verbose: true
-        phpspec: ~
         phpunit: ~
