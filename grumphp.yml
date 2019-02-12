@@ -6,7 +6,12 @@ parameters:
         gulp: ~
         jsonlint: ~
         kahlan: ~
-        phpcs: ~
+        phpcs:
+            standard: PSR2
+            show_warnings: false
+            tab_width: ~
+            sniffs: []
+            triggered_by: [php]
         phpcsfixer2:
             allow_risky: false
             cache_file: ~
