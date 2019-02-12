@@ -3,7 +3,11 @@ parameters:
     bin_dir: vendor/bin
     tasks:
 
-
+        phpcs:
+            standard: PSR2
+            tab_width: ~
+            sniffs: []
+            triggered_by: [php]
         phpcsfixer2:
             allow_risky: false
             cache_file: ~
