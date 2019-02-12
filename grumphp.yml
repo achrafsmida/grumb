@@ -4,7 +4,7 @@ parameters:
     tasks:
 
         phpcs:
-            standard: PSR2
+            standard: ~
             tab_width: ~
             sniffs: []
             triggered_by: [php]
