@@ -17,7 +17,11 @@ parameters:
             config: ~
             verbose: true
             level: ~
-
+        phpunit:
+            config_file: ~
+            testsuite: ~
+            group: []
+            always_execute: false
 
         phplint:
         octrine_orm:
