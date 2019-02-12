@@ -13,4 +13,16 @@ parameters:
                     - "var"
                     - "web"
 
-        phpcsfixer: ~
+        phpcsfixer:
+            config: ~
+            verbose: true
+            level: ~
+
+        phpcsfixer2:
+            allow_risky: ~
+            cache_file: ~
+            config: ~
+            using_cache: ~
+            verbose: true
+            diff: false
+            triggered_by: ['php']
