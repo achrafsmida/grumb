@@ -7,6 +7,12 @@ parameters:
         jsonlint: ~
         kahlan: ~
         phpcs: ~
-        phpcsfixer2: ~
+        phpcsfixer2:
+            allow_risky: false
+            cache_file: ~
+            config: ~
+            rules: []
+            using_cache: true
+            verbose: true
         phpspec: ~
         phpunit: ~
