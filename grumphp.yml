@@ -23,10 +23,6 @@ parameters:
             always_execute: false
 
         phplint:
-        octrine_orm:
-            skip_mapping: false
-            skip_sync: false
-            triggered_by: ['php', 'xml', 'yml']
         yamllint:
             ignore_patterns: []
             object_support: false
