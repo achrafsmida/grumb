@@ -12,7 +12,6 @@ parameters:
                     - "app"
                     - "var"
                     - "web"
-
         phpcsfixer:
             config: ~
             verbose: true
